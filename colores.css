@@ -1,0 +1,144 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f4ef;
+    color: #333;
+}
+
+/* Estilo del encabezado y navegación */
+header {
+    background-color: #ff6f61;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffe0b2 !important;
+}
+
+/* Sección de bienvenida */
+#inicio {
+    background: linear-gradient(135deg, #ff6f61, #ffb74d);
+    color: #fff;
+    padding: 4rem 2rem;
+}
+
+#inicio h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo de productos destacados */
+#productos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ff6f61;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h5 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+/* Estilo del carrusel */
+.carousel-item img {
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+    color: #fff;
+}
+
+/* Estilo de la sección de contacto */
+#contacto {
+    background-color: #fff3e0;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #ff6f61;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.form-control {
+    border: 2px solid #ffb74d;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5);
+}
+
+/* Botón de enviar */
+button[type="submit"] {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e64a19;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
